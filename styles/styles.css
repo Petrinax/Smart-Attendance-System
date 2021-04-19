@@ -13,7 +13,7 @@ body {
   padding: 20px 40px;
 }
 .content-section {
-  padding-top: 100px;
+  padding-top: 50px;
   padding-bottom: 100px;
 }
 .content-section-heading h2 {
@@ -159,11 +159,14 @@ span {
   background-color: #02ccba;
   color: #fff;
   border: none;
+  box-shadow: 2px 3px 10px rgb(66, 66, 66);
 }
 #Banner .btn-primary:hover {
-	background-color: #07bcab;
+	background-color: #ffb51d;
 }
 #Services {
+  padding-top: 150px;
+  height: 100vh;
   background-color: #fafafa;
 }
 #Services .service-box {
@@ -262,6 +265,13 @@ span {
   -o-transform: rotateX(0);
   transform: rotateX(0);
 }
+#Attendance {
+  position: relative;
+  height: 100vh;
+  background: linear-gradient(274deg, #46c8d0, #6262e2 44%, #c962f7);
+  color: #fff;
+}
+
 #Portfolio {
   padding: 80px 0;
 }
@@ -526,7 +536,7 @@ span {
   border-radius: 6px;
 }
 #Contact .submit-btn button:hover {
-	background-color: #07bcab;
+	background-color: #ffb51d;
 }
 footer.footer {
   padding-top: 70px;
@@ -544,14 +554,14 @@ footer.footer .social-link {
   padding: 10px;
 }
 footer.footer .social-link:hover {
-	background-color: #07bcab;
+	background-color: #ffb51d;
 }
 footer.footer p.small a {
 	color: #636c72;
 	text-decoration: none;
 }
 footer.footer p.small a:hover, footer.footer p.small a.focus {
-	color: #02ccba;
+	color: #ffb51d;
 	text-decoration: none;
 }
 #Contact .address-block span {
