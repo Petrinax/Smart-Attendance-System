@@ -16,10 +16,10 @@ html, body{
 }
 #camera--trigger{
     width:200px;
-    background-color: black;
+    background-color: #02ccba;
     color: white;
     font-size: 16px;
-    border-radius: 30px;
+    border-radius: 6px;
     border: none;
     padding: 15px 20px;
     text-align: center;
@@ -29,6 +29,10 @@ html, body{
     left: calc(50% - 100px);
     cursor: pointer;
 }
+#camera--trigger:hover{
+    background-color: #ffb51d;
+}
+
 .taken{
     height: 100px!important;
     width: 100px!important;
